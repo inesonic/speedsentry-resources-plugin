@@ -1,0 +1,90 @@
+ /**********************************************************************************************************************
+ * Copyright 2021, Inesonic, LLC
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+ * License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU General Public License along with this program.  If not, see
+ * <https://www.gnu.org/licenses/>.
+ ***********************************************************************************************************************
+ */
+
+.inesonic-speedsentry-resources-disk-usage-settings {
+	display: inline-block;
+}
+
+.inesonic-speedsentry-resources-disk-usage-settings-1 {
+	display: inline-block;
+}
+
+.inesonic-speedsentry-resources-disk-usage-settings-2 {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.inesonic-speedsentry-resources-disk-usage-threshold {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.inesonic-speedsentry-resources-two-plots {
+}
+
+.inesonic-speedsentry-resources-one-plot {
+}
+
+.inesonic-speedsentry-resources-disk-graph, .inesonic-speedsentry-resources-cpu-graph, .inesonic-speedsentry-resources-memory-graph {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: white;
+    border: 1px solid #CCCCCC;
+}
+
+.inesonic-speedsentry-resources-disk-title, .inesonic-speedsentry-resources-cpu-title, .inesonic-speedsentry-resources-memory-title {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #006DFA;
+    white-space: nowrap;
+}
+
+.inesonic-speedsentry-resources-disk-inner, .inesonic-speedsentry-resources-cpu-inner, .inesonic-speedsentry-resources-memory-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	height: 400px;
+	padding-bottom: 10px;
+}
+
+.inesonic-speedsentry-resources-disk-y-axis, .inesonic-speedsentry-resources-cpu-y-axis, .inesonic-speedsentry-resources-memory-y-axis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.inesonic-speedsentry-resources-disk-y-axis-label, .inesonic-speedsentry-resources-cpu-y-axis-label, .inesonic-speedsentry-resources-memory-y-axis-label {
+    margin: 0 auto;
+    font-size: 18px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.inesonic-speedsentry-resources-disk-x-axis-label, .inesonic-speedsentry-resources-cpu-x-axis-label, .inesonic-speedsentry-resources-memory-x-axis-label {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inesonic-speedsentry-resources-disk-image, .inesonic-speedsentry-resources-cpu-image, .inesonic-speedsentry-resources-memory-image {
+    width: 100%;
+}
